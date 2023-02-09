@@ -1,0 +1,17 @@
+[11-Apr-2021 17:22:53 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/motortraderbd/public_html/rashik/facebook.php on line 58
+[13-Apr-2021 15:49:23 UTC] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: You must provide an access token. in /home/motortraderbd/public_html/rashik/php-graph-sdk-5.x/src/Facebook/FacebookRequest.php:209
+Stack trace:
+#0 /home/motortraderbd/public_html/rashik/php-graph-sdk-5.x/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/motortraderbd/public_html/rashik/php-graph-sdk-5.x/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/motortraderbd/public_html/rashik/php-graph-sdk-5.x/src/Facebook/Facebook.php(341): Facebook\Facebook->sendRequest('GET', '/me?fields=emai...', Array, NULL, NULL, 'v3.2')
+#3 /home/motortraderbd/public_html/rashik/fb-callback.php(45): Facebook\Facebook->get('/me?fields=emai...')
+#4 {main}
+  thrown in /home/motortraderbd/public_html/rashik/php-graph-sdk-5.x/src/Facebook/FacebookRequest.php on line 209
+[19-Nov-2022 07:18:29 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[19-Nov-2022 07:18:29 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[19-Nov-2022 07:18:29 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[20-Nov-2022 02:12:50 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[20-Nov-2022 09:31:48 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[20-Nov-2022 11:46:58 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[20-Nov-2022 19:15:35 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13
+[21-Nov-2022 14:54:52 UTC] PHP Notice:  Undefined index: state in /home/motortrader/public_html/rashik/fb-config.php on line 13

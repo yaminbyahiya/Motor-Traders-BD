@@ -1,0 +1,248 @@
+body {
+margin: 0px;
+}
+.cat {
+	font-family: arial, SolaimanLipi, Siyam Rupali, SutonnyBanglaOMJ, AponaLohit, Vrinda;
+	font-size: 13px;
+	font-weight: normal;
+	color: #222222;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+.cat2 {
+font-family: SolaimanLipi;
+font-size: 20px;
+font-weight: normal;
+color: #222222;
+}
+
+.sect {
+	font-family: SolaimanLipi, Siyam Rupali, SutonnyBanglaOMJ, AponaLohit, Vrinda;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.highlight {
+	font-family: SolaimanLipi, Siyam Rupali, SutonnyBanglaOMJ, AponaLohit, Vrinda;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	color: #777777;
+}
+
+.title1, .title1 a, .title1 a:visited {
+	font-family: SolaimanLipi, Siyam Rupali, SutonnyBanglaOMJ, AponaLohit, Vrinda;
+	font-size: 16px;
+	font-weight: normal;
+	color: #005689;
+}
+
+.title2 {
+	font-family: SolaimanLipi, Siyam Rupali, SutonnyBanglaOMJ, AponaLohit, Vrinda;
+	font-size: 14px;
+	font-weight: normal;
+	color: #654321;
+}
+
+
+
+.submit1 {
+	font-family: tahoma, arial, helvetica;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #A7252B;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #003399;
+}
+a:link {
+	text-decoration: none;
+	color: #003399;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+.btnChange {
+	background-image: url("change.png") no-repeat 0 0;
+	width: 100px;
+	height: 35px;
+}
+.btnChange:hover {
+	background-image: url("change1.png") no-repeat 0 0;
+}
+
+.btnRemove {
+	background-image: url("remove.png") no-repeat 0 0;
+	width: 100px;
+	height: 35px;
+}
+.btnRemove:hover {
+	background-image: url("remove1.png") no-repeat 0 0;
+}
+
+.taho11 {
+	font-family: tahoma, arial, helvetica;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.block {
+background: #6F6F6F;
+padding: 2px 6px 3px 6px;
+margin: 0 3 0 0;
+font-family: tahoma;
+font-size: 12px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.curpg {
+background: #005689;
+padding: 2px 6px 3px 6px;
+margin: 0 3 0 0;
+font-family: tahoma;
+font-size: 12px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.imgpostshow {
+padding: 6px 6px;
+margin: 0px 15px 0px 0px;
+background:#FFFFFF;
+border: 2px solid #98C4D8;
+float:left;
+}
+
+
+
+
+
+
+
+.img2 {
+	padding-bottom:4px;
+	padding-right:4px;
+	padding-left:4px;
+	padding-top:4px;
+	border-color: #999999;
+	border-width:0;
+	outline:#999999 dashed thin; // dotted thick
+}
+
+.img1 {
+	padding-top:7px;
+	padding-bottom:5px;
+	padding-right:10px;
+	padding-left:0px;
+}
+
+.img3 {
+	padding-top:3px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-left:10px;
+	border-width:0;
+}
+
+.profile {	
+	font-family: SolaimanLipi;
+	font-size: 36px;
+	font-weight: bold;
+	color: #990033;
+}
+
+.eng {	
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.normal {	
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+}
+
+.title {	
+	font-family: SolaimanLipi;
+	font-size: 22px;
+	font-weight: bold;
+	color: #003399;
+	// vertical-align: bottom;
+	text-decoration: none;
+}
+
+.title_b {
+	font-family: SolaimanLipi;
+	font-size: 29px;
+	font-weight: bold;
+	color: #007700;
+}
+
+
+
+
+
+
+
+
+
+.post {
+	font-family: SolaimanLipi;
+	font-size: 17px;
+	font-weight: normal;
+	color: #A00AA2;
+	// vertical-align: bottom;
+}
+
+
+
+.author {
+	font-family: SolaimanLipi;
+	font-size: 20px;
+	font-weight: bold;
+	color: #3B4B77;
+	text-decoration: none;
+}
+
+.details {
+	font-family: SolaimanLipi;
+	font-size: 16px;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+}
+
+.this_isu {
+	font-family: SolaimanLipi;
+	font-size: 14px;
+	font-weight: normal;
+	color: #222222;
+	text-decoration: none;
+}
+
+.menu {
+	font-family: SolaimanLipi;
+	font-size: 17px;
+	font-weight: normal;
+	color: #000000;
+	vertical-align: bottom;
+}

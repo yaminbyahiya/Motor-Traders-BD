@@ -1,0 +1,1 @@
+<?php header("location: https://technext.github.io/AdminBSBMaterialDesign/pages/ui/icons.html"); ?>

@@ -1,0 +1,61 @@
+﻿var audi = ["R8", "A3", "A5", "A6", "A7", "A8", "Q2", "Q3", "Q5", "Q7", "Q8"];
+
+var bentley = ["Bentayga", "Continental", "Allure", "Flying Spur", "Mulsanne"];
+
+var bmw = ["1 Series", "2 Series", "3 Series", "4 Series", "5 Series", "6 Series", "7 Series", "8 Series", "M5", "M6", "M3", "M2", "Z4", "Z3", "X1", "X2", "X3", "X4", "X5", "X6", "X7"];
+
+var daihatusu = ["Copen", "Terios", "Rocky", "Midget", "Mira", "Delta"];
+
+var dfsk = ["Glory I-Auto","Glory 580","EC 36"];
+
+var honda = ["Civic", "Accord", "Legend", "Inspire", "Insight", "S2000", "Type-R", "Integra", "CR-V", "CR-Z", "Element", "Prelude", "S660", "Airwave", "Vezel", "HR-V", "Pilot", "Fit", "Jazz", "City", "NSX", "Element", "Odyssey", "Vigor", "CRX"];
+
+var hyundai = ["Sonata", "H1", "Tucson", "Elantra", "Santa Fe", "Nexo", "i30", "i20"];
+
+var haval = ["Jolion Compact SUV","3rd Gen H6 Mid-size SUV","H9 7 Seat 4WD SUV"];
+
+var infiniti = ["QX", "G", "Q", "M"];
+
+var jaguar = ["XJ", "XF", "F-PACE", "XE", "XJL", "F TYPE", "E TYPE"];
+
+var jeep = ["Wrangler", "Rubicon", "Cherokee", "Grand Cherokee", "Renegade", "Compass"];
+
+var kia = ["Sportage", "Rio", "Optima", "Cee’d", "Stinger", "Sorento", "Soul", "Telluride"];
+
+var landrover = ["Discovery", "Defender", "Range Rover Sport", "Range Rover Vogue", "Range Rover Autobiography LWB", "Evoque", "LR3", "LR4", "Velar", "Range Rover SVR"];
+
+var lexus = ["IS", "ES", "LX", "GX", "GS", "LS", "RX", "LC", "CT", "HS", "SC"];
+
+var maserati = ["Ghibli","Levante","Quattroporte"];
+
+var mercedes = ["A-Class", "B-Class", "C- Class", "E-Class","GLB SUV ", "R-Class", "S- Class", "CLK", "SLS", "AMG", "SL", "CLA", "CLS", "M-Class", "GLE", "GLS", "GLC", "GLC Coupe", "SLC", "SEL", "180", "220", "Viano", "G-Class", "GLK", "GLA", "X-Class", "E53", "Gle 53"];
+
+var mg = ["HS", "ZS", "MG 3", "HS PHEV","ZS EV"];
+
+var mitsubishi = ["Pajero", "Lancer", "Evolution", "Eclipse Crossover", "Delica", "Fuso", "Rosa", "Colt", "Pajero Mini", "Eclipse", "Galant", "Mirage", "Pajero IO", "Outlander", "Grandis", "Xpander", "L200", "Rosa" ];
+
+var mazda = [ "RX8", "Axela", "Atenza", "CX-3","CX-5", "CX-7", "CX-9", "RX7" ,"RX-8", "Mazda 2", "Mazda 3", "Mazda 6", "Tribute", "MX5", "Miata"];
+
+var nissan = ["Sunny", "Cefiro", "Teana", "March", "Cube", "Bluebird", "Atlas", "NV150", "NV250", "NV350", "Fuga", "Cedric", "Juke", "March", "Sunny", "Vanette", "Laurel", "President", "GTR", "Silvia", "Skyline", "Cedric", "Gloria", "Laurel", "350Z", "NV200", "Navara", "Murano", "President", "Leaf", "Xtrail", "Dualis", "Note", "Micra", "Pathfinder", "Tilda", "Tilda Latio"];
+
+var porsche = ["Panamera", "718 Boxter", "718 Cayman", "911", "Cayenne", "Macan", "Taycan"];
+
+var proton = ["Saga", "Persona","X50", "X70", "Preve", "Gen2"];
+
+var ssangyong = ["Korando","Rexton","Musso Grand"];
+
+var subaru = ["Imprezza", "Imprezza STi", "BR-Z", "Legacy", "Outback", "WRX", "Forester", "Vivio"];
+
+var suzuki = ["Alto", "800", "Swift", "Grand Vitara", "KEI", "SX-4", "Twin", "Wagon-R", "Gypsy", "Ciaz", "Ertiga", "Kashkai", "Swift DZire", "Jimny"];
+
+var tata = ["Nano", "Indigo", "Safari Storme", "Nano GenX", "Nano", "Tiago", "Indica eV2", "Tigor", "Bolt", "Indica V2", "Indigo eCS", "Zest"];
+
+var toyota = ["Allion", "Alphard", "Allex", "Avensis", "Auris", "Aqua", "Camry", "Premio", "Starlet", "Highlander", "Altezza", "Axio", "Celsior", "Fielder", "Corolla", "Corona", "GT86", "Probox", "Noah", "LiteAce", "Voxy", "Levin", "Celica", "FJ Cruiser", "Funcargo", "IQ", "ISIS", "Kluger", "Passo", "Porte", "Platz", "Velfire", "Esquire", "Cygnus", "Glanza", "Hilux", "Hilux", "Hiace", "Runx", "IST", "Mark2", "Mark2 Blit", "Chaser", "Crown", "Cresta", "Cressida", "MRS", "MR2", "Supra", "Levin", "Raum", "Nadia", "Ipsum", "CH-R", "Harrier", "Rav4", "Landcruiser Prado", "Sprinter", "Cami", "Verossa", "Corona Premio", "Dyna", "Vitz", "Windom", "Tercel", "Century", "Publica", "Publica", "Regius", "Rush", "SAI", "Coaster", "Passo", "Yaris", "Belta", "Townace", "Platz", "Estima", "Lucida", "Prius", "Wish", "Will VS", "Tercel", "Sprinter", "Marino", "Will Cypha", "Gaia", "Dyna", "Coaster", "Spacio", "Vanguard", "Velfire", "Vista", "Sai", "Levin", "Duet", "Vanguard", "Regius", "GT"];
+
+var volkswagen = ["Passat", "Golf", "Tourag", "Tiguan", "Jetta", "Polo", "Atlas"];
+
+var volvo = ["XC90", "S40", "S60", "S80", "S90", "240", "V70", "V60", "V90", "760", "C70"];
+
+var hino = ["Contessa 1300", "1917 TGE-A", "Renault 4CV", "300 Series Hybrid", "Dutro 125LT", "Jumbo Ranger", "Ranger commercial grade truck", "165 Hybrid", "Miller Lite Hino 338 T Verrastro", "268 A Cosmos mobile", "338 three-axle dump", "155 CAB-OVER", "155DC CAB-OVER", "195 CAB-OVER", "195DC CAB-OVER", "238 CONVENTIONAL", "258ALP CONVENTIONAL", "258LP CONVENTIONAL", "268 CONVENTIONAL", "268A CONVENTIONAL", "338 CONVENTIONAL", "195h HYBRID CAB-OVER", "195hDC HYBRID CAB-OVER", "Briska", "300 series", "HINO500 series", "600 series", "700 series", "RG Bus", "RM Bus", "S’elega Bus", "Rainbow BUS", "RK Bus", "RU1J SSL"];
+
+var ashok = ["BADA DOST", "BADA DOST i3", "DOST+", "DOST STRONG", "DOST CNG", "PARTNER", "MiTR School Bus", "MiTR Staff Bus"];
